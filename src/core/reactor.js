@@ -13,7 +13,7 @@ export default class Reactor {
 	/**
 	 * Allow the application to work offline
 	 */
-	offlineApp() {
+	workOffline() {
 		reportWebVitals.register();
 		return this;
 	}
